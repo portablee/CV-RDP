@@ -1,0 +1,641 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500&family=Sarala&display=swap');
+*
+
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+body{
+    
+    width: 100%;
+    height: 100%
+    font-size: 100%;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 100px 0;
+}
+
+
+
+.header-imagen{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+
+
+nav{
+    margin: 10px;
+    display: flex;
+    color: #fff8f0;
+    
+}
+
+nav a{
+    color: #c3a88a;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
+/* me */
+
+
+
+.me{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;            /*centro los elemntos*/
+    justify-content: space-around;  /*centro los elemntos*/
+    width: 65%;
+    margin: 0 auto;
+    padding: 50px 0 150px 0;
+}
+
+
+.me h1{
+    
+    
+    letter-spacing: 1px;
+    color: hsla(185, 58%, 64%, 0.71);
+    
+}
+
+
+
+
+.me h3{
+    
+   color: hsla(185, 58%, 64%, 0.71)
+}
+
+.me h4{
+    
+   color: hsla(185, 58%, 64%, 0.71)
+}
+
+.me p{
+   line-height: 130%; 
+   color: #c3a88a;
+}
+
+.me img{
+    
+    width:250px;
+    height:280px;
+    border-radius:20px; /*redondear imagen*/
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*
+.me .boton-cont{
+   background-color: #8d5411;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+*/
+
+.info-cont{
+   
+    margin: 10px;
+    padding: 0 60px 0 0;
+    
+}
+
+
+.info-cont h1{
+    
+    font-size: 50px;
+    color: hsla(185, 39%, 50%, 0.71);
+    
+}
+
+
+.info-cont h2{
+    
+    font-size: 40px;
+    color: hsla(185, 43%, 40%, 0.71);
+    
+}
+
+
+.info-cont h2{
+    
+    font-size: 40px;
+    
+    
+}
+
+.me p{
+  text-align: justify; 
+  margin: 20px 0 10px 0;
+}
+
+.me h4{
+  color: hsla(185, 43%, 40%, 0.71);
+}
+
+
+
+
+
+
+
+
+.tarjetas-skills{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:  0 auto;
+    padding: 50px 0 100px 0;
+    
+   
+}
+
+
+
+
+
+
+.date{
+    padding: 0 5px 0 0;/*  ---- espaciado de año */
+}
+
+
+
+/*  ---------------------------- skills inicio */
+
+
+/* skill-uno */
+.skill-uno{
+    
+    background-color: hsla(277, 51%, 90%, 0.50);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10px ;
+    width: 300px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.skill-uno .image-ntf{
+    width: 260px;
+}
+
+
+.skill-uno {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+/* skill-dos*/
+.skill-dos{
+    
+    background-color: hsla(205, 51%, 90%, 0.50);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10px ;
+    width: 300px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.skill-dos .image-ntf{
+    width: 260px;
+}
+
+
+.skill-dos {
+    padding: 20px;
+    align-items: center;
+   
+}
+
+
+/* skill-tres*/
+.skill-tres{
+    
+    background-color: hsla(58, 68%, 90%, 0.5);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10px ;
+    width: 300px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.skill-tres .image-ntf{
+    width: 260px;
+}
+
+
+.skill-tres {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+/*  ---------------------------- skills Fin */
+
+
+
+
+
+/*  ---------------------------- tarjetas inicio */
+
+.tarjetas{
+    
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+    padding: 50px 0 0 0;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* tarjeta-Uno */
+.tarjeta-uno{
+    
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 2rem;
+    margin: 10px ;
+    width: 320px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.tarjeta-uno .image-ntf{
+    width: 280px;
+}
+
+
+.tarjeta-uno {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+
+/* tarjeta-dos */
+.tarjeta-dos{
+
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10px ;
+    width: 320px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.tarjeta-dos .image-ntf{
+    width: 280px;
+}
+ 
+
+.tarjeta-dos {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+
+/* tarjeta-tres */
+.tarjeta-tres{
+    
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 10px ;
+    width: 320px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.tarjeta-tres .image-ntf{
+    width: 280px;
+}
+
+
+.tarjeta-tres {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+
+
+
+.tarjetas-ee{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+    gap:30px;
+    text-align: center;
+}
+
+
+ 
+
+
+
+
+
+
+/* tarjeta-academica-1 */
+.tarjeta-academica-1{
+    
+    background-color: hsla(46, 18%, 78%, 0.19);
+    border-radius: 2rem;
+    padding: 50px;
+    margin: 10px ;
+    width: 320px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.tarjeta-academica-1 {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.tarjeta-academica-1 h1 {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+
+
+
+/* tarjeta-academica-2 */
+.tarjeta-academica-2{
+    
+    background-color: hsla(46, 18%, 78%, 0.19);
+    border-radius: 2rem;
+    padding: 50px;
+    margin: 10px ;
+    width: 320px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+
+.tarjeta-academica-2 {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.tarjeta-academica-2 h1 {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+
+
+
+
+
+/*  ---------------------------- tarjeta fin */
+
+
+
+
+
+
+/*  ---------------------------- sof */
+  
+
+.sof-d{
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+    padding: 200px 0 20px 0;
+}
+
+
+
+.sof-f{
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+    padding: 0 0 100px 0;
+}
+
+
+.sof img{
+    
+    width: 150px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+/*  ---------------------------- sof fin */
+
+
+
+
+
+
+
+
+
+
+.image-ntf{
+    
+    margin: 0 0 30px 0;
+    border-radius:20px; /*redondear imagen*/
+}
+
+
+
+.ntf-info{
+    margin: 0 0 30px 0;
+    
+    
+}
+
+.ntf-info h1{
+    padding: 0 0 10px 0;
+    
+    
+}
+
+.ntf-info p{
+    color: #46739a;
+    
+}
+
+
+
+
+.ntf-author{
+ margin: 30px 0 0 0;
+}
+
+.image-author{
+    width: 50px;
+    
+}
+
+
+h1{
+    color: rgba(32, 222, 222, 0.7);
+
+}
+
+p{
+    color: #46739a;
+}
+
+.ether{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(32, 222, 222, 0.7);
+    padding: 0 0 10px 0;
+}
+
+
+.contiene-ether{
+   display: flex;   
+}
+
+
+
+.contiene-icon{
+    display: flex; 
+}
+
+.icon-ether{
+    
+    margin: 0 0 10px 0;
+}
+
+.date{
+    color: #46739a;
+}
+
+
+
+.info-author{
+    color: rgba(32, 222, 222, 0.7);
+}
+
+.name-author{
+     color: #46739a;
+}
+
+
+/*portablee*/
+
+
+.portablee{
+    margin: 20px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.portablee .image-author{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.portablee .name-author {
+    color: #c3a88a;
+}
+
+
+
+/*Redes*/
+
+.redes{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 80px 0;
+}
+
+.redes a{
+    font-size: 30px;
+    margin: 10px ;
+    padding: 10px;
+    color: #c3a88a;
+}
+
+
+
+/*@media*/
+
+@media screen (min-width: 375px) and (max-width: 1024px){
+    
+
+   body{
+        background-color: bisque;
+    }    
+  
+    
+    
+}
+
