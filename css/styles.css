@@ -625,7 +625,7 @@ p{
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 620px){
     
     body{
         width: 250px;
@@ -633,6 +633,10 @@ p{
         padding: 0;
     }
     
+    html{
+    scroll-behavior: smooth;
+}
+
     
     header{
     
