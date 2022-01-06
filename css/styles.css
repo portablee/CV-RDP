@@ -625,17 +625,119 @@ p{
 }
 
 
-
-/*@media*/
-
-@media screen (min-width: 375px) and (max-width: 1024px){
+@media screen and (max-width: 320px){
     
-
-   body{
-        background-color: bisque;
-    }    
-  
+    body{
+        width: 250px;
+        margin: 0 0 0 50px;
+        padding: 0;
+    }
     
     
+    header{
+    
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 100px 0;
 }
+
+    
+
+    nav a{
+    color: #c3a88a;
+    font-size: 100%;
+    margin: 10px;
+}
+
+    
+    .me{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;            /*centro los elemntos*/
+    width: 500px;
+    margin: 0 ;
+    padding: 50px 0 50px 0;
+        
+}
+
+    .me img{
+    
+    width:250px;
+    height:280px;
+        margin: 30px 0 3px 0;
+    border-radius:20px; /*redondear imagen*/
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+    
+    
+    
+.tarjetas-skills{
+    
+    display: grid;
+    
+    margin:  200px 0 0 100px;
+    padding: 0 0 0 150px;
+    
+   
+}
+
+    
+    
+.tarjetas{
+    
+    display: grid;
+    
+    margin:  100px 0 0 100px;
+    padding: 30px 0 0 150px;
+    
+   
+}
+    
+    
+    
+.sof{
+    
+    
+    display: grid;
+    
+   
+}
+
+    .tarjetas-ee{
+    display: grid;
+    margin:  0 0 0 100px;
+    padding: 30px 0 0 150px;
+   
+}
+
+    
+    .portablee{
+    display: grid;  
+    margin:  0 0 0 150px;
+    text-align: center;
+    padding: 50px 0 0 0;
+
+}
+    
+    .portablee .image-author{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 50px 0 10px 40px;
+}
+
+
+    .redes{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 80px 250px;
+}
+
+}
+
+
 
